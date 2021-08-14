@@ -1,0 +1,355 @@
+/* 
+  FirstColor: #08526D
+  SecondColor: #EC1C23
+*/
+.bg-primary{
+  background-color: #08526D !important;
+}
+
+/* Start Globally */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+  background-color: #EC1C23;
+  border-color: #EC1C23;
+  box-shadow: none;
+}
+.text-primary{
+  color: #EC1C23 !important;
+}
+.bg-primary{
+  background-color: #EC1C23 !important;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled):active:focus{
+  background-color: #08526D;
+  border-color: #08526D;
+  box-shadow: none;
+}
+.bg-secondary{
+  background-color: #08526D !important;
+}
+.text-secondary{
+  color: #08526D !important;
+}
+.border-secondary{
+  border: 2px solid #08526D !important;
+}
+/*  */
+.bg-dark{
+  background-color: #eee !important;
+}
+.bg-danger{
+  background-color: #EC1C23 !important;
+}
+.border-dark{
+  border-color: #ccc !important;
+}
+/* End Globally */
+
+/* Strat UpperNavbar */
+
+/* .upper-nav{
+  padding: 10px;
+  background-color: #08526D;
+  color: #FFF;
+}
+.upper-nav span{
+  color: #BFC6C9;
+}
+.upper-nav .get-quote{
+  display: inline-block;
+  border: 1px solid red;
+  margin-left: 20px;
+  padding: 2px 10px;
+} */
+
+/* End UpperNavbar */
+
+/* Strat Navbar */
+.navbar-brand span{
+  font-size: 40px;
+}
+.navbar-brand span:first-child{
+  color: #08526D;
+  font-weight: bold;
+}
+.navbar-brand span:last-child{
+  color: #EC1C23;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-weight: bold;
+  text-transform: uppercase;;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+  color: #EC1C23;
+}
+.collapse .dropdown-menu{
+  background-color: #fdfdfdfd;
+  left: 24px;
+}
+.collapse .dropdown-item{
+  margin: 10px 0;
+}
+.collapse .dropdown-item.active, 
+.dropdown-item:active{
+  background-color: #08526D;
+}
+.collapse .dropdown-item:focus, 
+.dropdown-item:hover{
+  background-color: #08526D;
+  color: #FFF;
+}
+.navbar-light .navbar-toggler{
+  outline: none;
+}
+/* End Navbar */
+
+/* Strat Slider */
+/* .slider .carousel-item img{
+  max-width: 100%;
+  height: 100%;
+} */
+/* Start Home carousel */
+.home-carousel .carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-carousel .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.home-carousel h1{
+  position: absolute;
+  z-index: 3;
+  color: #FFF;
+  width: 50%;
+  line-height: 1.4;
+}
+.home-carousel h1 span{
+  background-color: #EC1C23;
+  color: #eee;
+  display: inline-block;
+  padding: 0px 30px 7px;
+  font-size: 30px;
+}
+.home-carousel .carousel-item{
+  background-size: cover ;
+}
+.home-carousel .carousel-one{
+  background-image: url(../image/slider01.jpg);
+}
+.home-carousel .carousel-two{
+  background-image: url(../image/slider02.jpg);
+}
+.home-carousel .carousel-three{
+  background-image: url(../image/slider03.jpg);
+}
+.home-carousel .carousel-indicators li{
+  border: none;
+  height: 5px;
+  background-clip: unset;
+
+}
+.stop,
+.stop2,
+.stop3{
+  position: absolute;
+  left: 400px;
+  z-index: 3;
+  margin-top: 500px;
+}
+.stop2{
+  margin-top: 400px;
+}
+.stop3{
+  margin-top: 300px;
+}
+.carousel-control-next, .carousel-control-prev{
+  z-index: 3;
+}
+
+.carousel-item-next:not(.carousel-item-left),
+.active.carousel-item-right {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.carousel-item-prev:not(.carousel-item-right),
+.active.carousel-item-left {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+/* End Home Carousel */
+
+/* Strat Features */
+.features i{
+  background-color: #EC1C23;
+  color: #FFF;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.features h3{
+  font-size: 26px;
+  color: #08526D;
+}
+/* End Features */
+
+/* Strat Overview */
+.overview{
+  background-color: #F0F5F7;
+}
+.overview h2{
+  color: #333;
+  font-weight: bold;
+}
+.overview h4{
+  letter-spacing: 2px;
+}
+.overview p{
+  line-height: 1.7;
+}
+/* End Overview */
+
+/* Start Features Work */
+.features-work li.active,
+.features-work li:hover{
+  background-color: #EC1C23;
+  color: #FFF !important;
+  border-color: #EC1C23 !important;
+  transition: background-color .3s ease-in-out;
+}
+.features-work li:hover{
+  cursor: pointer;
+}
+.features-work .shuffle-img{
+  min-height: 130px
+}
+/* End Features Work */
+
+/* Start Latest Posts  */
+.latest h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+.latest p.text-center{
+  font-size: 20px;
+}
+.latest .card + .card {
+    border-left: 1px solid rgba(0,0,0,.125);
+    margin-left: 10px;
+}
+/* End Latest Posts  */
+
+/* Start testim */
+.testim{
+  background: url(../image/testimonial.jpg) top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 400px;
+}
+.testim:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.testim .carousel{
+  height: 100%;
+}
+.testim .carousel-inner{
+  height: 100%;
+}
+.testim .carousel-item{
+  height: 100%;
+}
+.testim .carousel-caption{
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 50%;
+  bottom: auto;
+}
+/* End testim */
+
+/* Start pric-table */
+.pric-table h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.pric-table .container > p {
+  font-size: 20px;
+}
+.pric-table .table-price {
+  font-size: 26px;
+  font-weight: bold;
+}
+.pric-table .table-price small {
+  font-weight: bold;
+}
+/* Ebd pric-table */
+
+
+/* Strat choice */
+.choice p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+/* End choice */
+
+/* Strat statistics */
+.statistics span {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* End statistics */
+
+/* Strat contact */
+
+.contact,
+.contact a{
+  font-size: 30px;
+}
+/* End contact */
+
+/* footer */
+.footer h2,
+.footer a{
+  font-weight: bold;
+}
+.footer a::before{
+  content: "\f0a9";
+  font-family: 'FontAwesome';
+  margin-right: 5px;
+  font-size: 14px;
+}
+.footer .box-two li::before{
+  content: "\f054";
+  font-family: 'FontAwesome';
+  margin-right: 5px;
+  font-size: 12px;
+  color: #08526D;
+}
+
+/* Strat copyright */
+.copyright p{
+  font-size: 20px;
+}
+/* End copyright */
